@@ -1,0 +1,19 @@
+'SELECT * FROM wp_postmeta WHERE post_id = * AND meta_value LIKE "field\_%"'
+
+
+SELECT * FROM wp_postmeta WHERE meta_value LIKE "field\_%sub_title"
+
+
+wp_posts
+
+
+SELECT *  FROM `bitnami_wp062021`.`wp_posts` WHERE LIKE '%sub_title%'
+
+SELECT *  FROM wp_posts WHERE '%sub_title%'
+
+SELECT *  FROM wp_posts
+
+
+SELECT *  FROM wp_posts WHERE post_excerpt != ''
+
+excerpt != ''
