@@ -1,0 +1,8 @@
+// add theme support for customization
+function toothwave_add_woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
+
+add_action( 'after_setup_theme', 'toothwave_add_woocommerce_support' );
+// // change location of price on single
+remove_action( 'woocommerce_cart_coupon', 'action_woocommerce_cart_coupon', 10, 0 );

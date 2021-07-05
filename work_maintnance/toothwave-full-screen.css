@@ -1,0 +1,18 @@
+
+
+/* temp - delete */
+
+ @media (min-width:1025px) and (max-width:11199px) {
+.opal-fullpage .elementor-section-wrap {
+    width: 100%;
+    position: initial;
+    left: 0;
+}
+
+html:lang(en-US) .elementor-6767 .elementor-element.elementor-element-d58b52c{
+    width: 100%;
+    position: initial;
+    left: 0;
+}
+
+} 
